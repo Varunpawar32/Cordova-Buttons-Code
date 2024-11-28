@@ -1,0 +1,4 @@
+document.addEventListener("volumeupbutton", callbackFunction, false);  
+function callbackFunction() { 
+   alert('Volume Up Button is pressed!');
+}
