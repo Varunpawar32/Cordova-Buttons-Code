@@ -1,5 +1,6 @@
 Handling Back Button
-You will usually want to use Android back button for some app functionality like returning to previous screen. To be able to implement your own functionality, you first need to disable exiting the app when the back button is pressed.
+You will usually want to use Android back button for some app functionality like returning to previous screen. 
+To be able to implement your own functionality, you first need to disable exiting the app when the back button is pressed.
 
 document.addEventListener("backbutton", onBackKeyDown, false);  
 function onBackKeyDown(e) { 
